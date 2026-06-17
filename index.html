@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>R. Yogeshwaran - Portfolio</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span>Y<span class="accent-dot">.</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-dark">Let's Talk <i class="ph ph-arrow-right"></i></a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV -->
+  <nav class="mobile-nav" id="mobile-nav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-greeting">
+          <span class="highlight-text">Hi, I'm</span>
+          <div class="line"></div>
+        </div>
+        <h1 class="hero-title">R. Yogeshwaran</h1>
+        <h2 class="hero-subtitle">Mechatronics Engineering Student & Automation Enthusiast</h2>
+        <p class="hero-desc">
+          I am a passionate Mechatronics Engineering student dedicated to building innovative engineering solutions through automation, embedded systems, industrial manufacturing, and 3D design.
+        </p>
+        
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work <i class="ph ph-arrow-right"></i></a>
+          <a href="#" class="btn btn-outline">Download CV <i class="ph ph-download-simple"></i></a>
+        </div>
+
+        <div class="hero-socials">
+          <span>Follow me on</span>
+          <a href="https://linkedin.com/in/r-yogeshwaran-a55091301" target="_blank"><i class="ph-fill ph-linkedin-logo"></i></a>
+          <a href="mailto:ryogeshwaran612@gmail.com"><i class="ph-fill ph-envelope-simple"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap">
+        <!-- Abstract dark blob background -->
+        <svg class="blob-bg" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#1a1e23" d="M39.6,-66.2C50.3,-54.6,57.1,-40.4,66.4,-25.9C75.7,-11.4,87.5,3.3,86.2,16.8C84.9,30.3,70.5,42.5,56.8,53.4C43.1,64.3,30.1,73.9,15.5,78.2C0.9,82.5,-15.3,81.4,-29.2,74.9C-43.1,68.4,-54.6,56.5,-64.1,43.3C-73.6,30.1,-81.1,15.1,-81.5,-0.2C-81.9,-15.5,-75.2,-31,-64.7,-41.8C-54.2,-52.6,-39.9,-58.6,-26.4,-66C-12.9,-73.4,-0.2,-82.2,13.6,-83.4C27.4,-84.6,41.2,-78.2,39.6,-66.2Z" transform="translate(250 250) scale(1.1)" />
+        </svg>
+        
+        <div class="decorative-dots"></div>
+        <div class="decorative-circle"></div>
+        <svg class="decorative-triangle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="50,15 90,85 10,85" stroke="var(--clr-accent)" stroke-width="3" fill="none" />
+        </svg>
+
+        <img src="assest/image.png" alt="R. Yogeshwaran" class="hero-img" id="profile-img">
+        
+        <div class="floating-badge">
+          <div class="badge-icon"><i class="ph-fill ph-map-pin"></i></div>
+          <div class="badge-text">
+            <span class="label">Based in</span>
+            <span class="value">Tiruchirapalli, TN</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS STRIP -->
+  <section class="stats-strip">
+    <div class="container stats-inner">
+      <div class="stat-item">
+        <div class="stat-icon"><i class="ph-fill ph-student"></i></div>
+        <div class="stat-details">
+          <h3>B.E.</h3>
+          <p>Mechatronics</p>
+        </div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon"><i class="ph-fill ph-certificate"></i></div>
+        <div class="stat-details">
+          <h3>7.02</h3>
+          <p>Current CGPA</p>
+        </div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon"><i class="ph-fill ph-briefcase"></i></div>
+        <div class="stat-details">
+          <h3>1+</h3>
+          <p>Internships</p>
+        </div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon"><i class="ph-fill ph-lightbulb"></i></div>
+        <div class="stat-details">
+          <h3>Multiple</h3>
+          <p>Projects Built</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT I DO -->
+  <section class="services" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">WHAT I DO</span>
+        <h2 class="section-title">Engineering Solutions,<br><span class="highlight-text">Building Innovation.</span></h2>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="ph ph-cpu"></i></div>
+          <h3>Embedded Systems</h3>
+          <p>Designing and programming Arduino and microcontroller-based systems for real-world applications.</p>
+          <div class="service-arrow"><i class="ph ph-arrow-right"></i></div>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon"><i class="ph ph-factory"></i></div>
+          <h3>Industrial Automation</h3>
+          <p>Implementing PLC programming and automation solutions for smart manufacturing and process control.</p>
+          <div class="service-arrow"><i class="ph ph-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="ph ph-cube"></i></div>
+          <h3>3D Modeling & Printing</h3>
+          <p>Creating precise technical designs using AutoCAD and translating them into physical objects via 3D printing.</p>
+          <div class="service-arrow"><i class="ph ph-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="ph ph-code"></i></div>
+          <h3>Programming</h3>
+          <p>Developing scripts and algorithms using Python and MATLAB for engineering analysis and control systems.</p>
+          <div class="service-arrow"><i class="ph ph-arrow-right"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECT -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header flex-header">
+        <div>
+          <span class="section-eyebrow">FEATURED WORK</span>
+          <h2 class="section-title">Selected Projects</h2>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img-wrap project-1">
+            <div class="project-overlay">
+              <i class="ph ph-heartbeat" style="font-size: 4rem; color: #fff;"></i>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Healthcare & Embedded Systems</span>
+            <h3>Smart Saliva-Based Multi-Parameter Health Screening Sensor</h3>
+            <p>A non-invasive health screening system using saliva samples. Detects multiple parameters for rapid, accessible point-of-care diagnosis.</p>
+            <ul class="project-features">
+              <li>Non-invasive diagnosis</li>
+              <li>Multi-parameter monitoring</li>
+              <li>Portable & user-friendly</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT & EXPERIENCE TIMELINE -->
+  <section class="about-experience" id="about">
+    <div class="container">
+      <div class="ae-grid">
+        <!-- About Me -->
+        <div class="about-box">
+          <span class="section-eyebrow dark">ABOUT ME</span>
+          <p class="about-text">
+            I enjoy turning ideas into practical solutions by combining mechanical engineering, electronics, and programming. 
+            My goal is to contribute to industries that focus on smart manufacturing, robotics, and advanced automation technologies.
+          </p>
+          <p class="about-text">
+            I constantly explore new technologies and enjoy working on real-world engineering projects that improve efficiency and solve practical problems. I believe continuous learning, teamwork, and innovation are the keys to becoming a successful engineer.
+          </p>
+          
+          <div class="signature">R. Yogeshwaran</div>
+          
+          <a href="#contact" class="btn btn-outline-light mt-4">Contact Me <i class="ph ph-arrow-up-right"></i></a>
+        </div>
+
+        <!-- Timeline -->
+        <div class="timeline-box" id="experience">
+          <span class="section-eyebrow dark">EXPERIENCE TIMELINE</span>
+          
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2023 – 2027</span>
+                <h4>Bachelor of Engineering</h4>
+                <span class="timeline-role">Mechatronics Engineering</span>
+                <p>Paavai Engineering College. Current CGPA: 7.02.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">Internship</span>
+                <h4>Mechatronics Intern</h4>
+                <span class="timeline-role">HITAJE Indian Pumps Division</span>
+                <p>Gained practical knowledge of industrial pump manufacturing, assembly processes, CNC machining, quality inspection, and workplace safety.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">Certifications</span>
+                <h4>Additional Learning</h4>
+                <p>Completed Industrial Automation Training and 3D Printing Certification.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT CTA -->
+  <section class="contact-cta" id="contact">
+    <div class="container">
+      <div class="cta-inner">
+        <div class="cta-content">
+          <div class="cta-icon"><i class="ph-fill ph-paper-plane-tilt"></i></div>
+          <h2>Let's work <br><span class="highlight-text">together!</span></h2>
+          <p>Have an engineering project in mind or looking for a passionate mechatronics student? I'd love to hear from you.</p>
+          <a href="mailto:ryogeshwaran612@gmail.com" class="btn btn-dark">Get In Touch <i class="ph ph-arrow-up-right"></i></a>
+          
+          <div class="contact-info-strip">
+            <div class="ci-item">
+              <i class="ph-fill ph-envelope"></i> ryogeshwaran612@gmail.com
+            </div>
+            <div class="ci-item">
+              <i class="ph-fill ph-phone"></i> +91 9677388992
+            </div>
+            <div class="ci-item">
+              <i class="ph-fill ph-map-pin"></i> Tiruchirapalli, TN
+            </div>
+          </div>
+        </div>
+        <div class="cta-pattern"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span>Y<span class="accent-dot">.</span></span>
+        </a>
+      </div>
+      <div class="footer-copy">
+        &copy; 2024 R. Yogeshwaran. All rights reserved.
+      </div>
+      <div class="footer-up">
+        <a href="#home">Back to top <i class="ph ph-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
