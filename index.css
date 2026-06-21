@@ -575,7 +575,45 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
 }
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 19, 21, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.project-card:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-overlay i {
+  transform: scale(0.5);
+  transition: var(--transition);
+}
+
+.project-card:hover .project-overlay i {
+  transform: scale(1);
+}
+
+.project-1 { background-image: url('assest/project/p1/1.jpeg'); }
+.project-2 { background-image: url('assest/project/p2/1.jpeg'); }
+.project-3 { background-image: url('assest/project/p3/1.jpeg'); }
+.project-4 { background-image: url('assest/project/p4/1.jpeg'); }
+.project-5 { background-image: url('assest/project/p5/1.jpeg'); }
+.project-6 { background-image: url('assest/project/p6/1.jpeg'); }
 
 .project-info {
   padding: 48px;
