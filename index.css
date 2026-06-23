@@ -730,6 +730,80 @@ ul {
   font-size: 0.9rem;
 }
 
+/* ===== MY NETWORK ===== */
+.network {
+  padding: 80px 0;
+  background-color: var(--clr-bg-light);
+}
+
+.network-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.network-card {
+  background: var(--clr-bg-card);
+  padding: 32px 24px;
+  border-radius: 16px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  text-align: center;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.network-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--clr-accent);
+}
+
+.network-avatar {
+  width: 72px;
+  height: 72px;
+  background: rgba(243, 198, 35, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: var(--clr-accent);
+  margin: 0 auto 20px;
+}
+
+.network-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--clr-text-main);
+}
+
+.network-links {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.network-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--clr-bg-alt);
+  color: var(--clr-text-muted);
+  font-size: 1.2rem;
+  transition: var(--transition);
+}
+
+.network-links a:hover {
+  background: var(--clr-accent);
+  color: #111827;
+  transform: translateY(-2px);
+}
+
 /* ===== CONTACT CTA ===== */
 .contact-cta {
   padding: 80px 0;
